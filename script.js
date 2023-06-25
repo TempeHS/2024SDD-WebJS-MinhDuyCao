@@ -48,3 +48,26 @@ function equalityCheck() {
         }
     }
 }
+
+function secondCountDown() {
+    if (currentSecond != 1) {
+        currentSecond = currentSceond + 1;
+        documen.getElementById("countDown").innerHTML = currentSecond;
+    } else {
+        endgame();
+        return;
+    }
+    timerId = setTimeout("secondCountDown()", 1000);
+}
+
+function endGame() {
+    computerScore = computerScore + 1;
+    generateRandomNumber();
+    currentSecond = 11;
+    playerTip = "player too slow, try again";
+    updateHtmlContent();
+    document.getElementById("playButton").value = "Play now";
+    document.getElementById("countDown").innerHTML = 0;
+    updateHtmlContent();
+    clearTimeout(timerId);
+}
