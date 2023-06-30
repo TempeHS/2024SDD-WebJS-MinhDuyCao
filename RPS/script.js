@@ -16,7 +16,17 @@ let computerScore;
 function gameLoop (playerClicked) {
 	const randomNumber = generateRandomNumber()
 	// convert random number to a choice so you can both equality check and use in the ouput string it should be stored in a const 
-	
+	function randomNumber(){
+		if (randomNumber=1){
+			let 1 = scissor;
+		}if(randomNumber=2){
+			let 2 = rock;
+		}if(randomNumber=3){
+			
+		}
+
+		}
+	}
 	
 	
 	const computerChoice = randomNumber //for debug only
