@@ -17,15 +17,12 @@ function gameLoop (playerClicked) {
 	const randomNumber = generateRandomNumber()
 	// convert random number to a choice so you can both equality check and use in the ouput string it should be stored in a const 
 	function randomNumber(){
-		if (randomNumber=1){
-			let 1 = scissor;
-		}if(randomNumber=2){
-			let 2 = rock;
-		}if(randomNumber=3){
-			
+		var paper = 1;
+		var scissor = 2;
+		var rock = 3;
 		}
-
-		}
+	function equalityCheck(){
+		
 	}
 	
 	
